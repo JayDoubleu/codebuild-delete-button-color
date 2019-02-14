@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Make codebuild project delete button red color",
+  "version": "0.0.1",
+  "description": "Make codebuild project delete button red color",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://*.console.aws.amazon.com/*"]
+  }]
+ 
+}
